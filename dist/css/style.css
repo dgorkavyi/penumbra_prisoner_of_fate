@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset Mixing
  * ================================================== */
@@ -794,7 +795,6 @@ template {
 }
 
 .about {
-  display: block;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/background__01.png");
   box-shadow: inset 0px 4px 80px 71px rgba(0, 0, 0, 0.86);
   background-repeat: no-repeat;
@@ -829,6 +829,54 @@ template {
   font-size: 24px;
   line-height: 155%;
   text-align: justify;
+}
+
+.media-slider__item {
+  width: 367px;
+  height: 217px;
+  border: 1px solid #db8b51;
+}
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.media-slider {
+  position: relative;
+}
+.media-slider .slick-arrow {
+  position: absolute;
+  z-index: 10;
+  top: calc(50% - 37px);
+  width: 37px;
+  height: 74px;
+}
+.media-slider .slick-prev {
+  right: calc(100% + 37px);
+}
+.media-slider .slick-next {
+  left: calc(100% + 38px);
 }
 
 html {
@@ -869,4 +917,8 @@ body {
   border-bottom: 1px solid #fff;
   line-height: 26px;
   margin-bottom: 60px;
+}
+
+section {
+  display: block;
 }

@@ -10,6 +10,7 @@ $active-text-color: #db8b51;
 @import 'media';
 @import 'features';
 @import 'footer';
+@import 'slider';
 
 html {
   scroll-behavior: smooth;
@@ -49,4 +50,8 @@ body {
   border-bottom: 1px solid $color;
   line-height: 26px;
   margin-bottom: 60px;
+}
+
+section {
+  display: block;
 }

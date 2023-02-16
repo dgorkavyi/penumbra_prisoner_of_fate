@@ -1,17 +1,8 @@
+@import '../../node_modules/scss-reset/reset';
 // variables
 $bg-color: #000;
 $color: #fff;
 $active-text-color: #db8b51;
-
-@import '../../node_modules/scss-reset/reset';
-@import 'fonts';
-@import 'header';
-@import 'about';
-@import 'media';
-@import 'features';
-@import 'footer';
-@import 'slider';
-
 html {
   scroll-behavior: smooth;
 }
@@ -56,3 +47,13 @@ body {
 section {
   display: block;
 }
+
+@import 'fonts';
+@import 'header';
+@import 'about';
+@import 'media';
+@import 'features';
+@import 'footer';
+@import 'slider';
+
+@import 'adaptive';

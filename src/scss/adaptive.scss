@@ -1,0 +1,141 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+  .media-slider__item {
+    height: 200px;
+  }
+  .media__video {
+    height: 474px;
+  }
+  .media-slider {
+    width: 90%;
+    margin: 0 auto 60px auto;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .footer__logo-1 {
+    width: 200px;
+  }
+  .footer__logo-2,
+  .footer__logo-3 {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+  .about__main-text,
+  .about__sub-text {
+    font-size: 20px;
+  }
+  .container {
+    width: 800px;
+  }
+  .media-slider__item {
+    height: 150px;
+  }
+  .header-content-wrapper {
+    width: 100%;
+  }
+  /* */
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 790px) {
+  .media-slider__item {
+    height: 250px;
+  }
+  .nav,
+  .header-content__link-to-steam {
+    justify-content: center;
+  }
+  .header-content__text {
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .media-slider {
+    width: 100%;
+  }
+  .slick-list {
+    width: 100%;
+    overflow: hidden;
+  }
+  .media__video {
+    height: 374px;
+  }
+  .about__main-text, .about__sub-text, .features {
+    text-align: start;
+  }
+  .about__sub-text-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about__sub-text {
+    width: 100%;
+  }
+
+  .slick-prev {
+    right: calc(100% - 40px) !important;
+  }
+  .slick-next {
+    left: calc(100% - 40px) !important;
+  }
+
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .media__video {
+    height: 274px;
+  }
+  .about {
+    margin-bottom: 300px;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav__item + .nav__item {
+    margin-left: 0;
+  }
+  .footer__logo-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* */
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    margin-bottom: 200px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 375px) {
+  .media-slider__item {
+    height: 180px;
+  }
+  .about {
+    margin-bottom: 500px;
+  }
+  /* */
+}
+@media only screen and (max-width: 320px) {
+  .media-slider__item {
+    height: 150px;
+  }
+  .about {
+    margin-bottom: 600px;
+  }
+  /* */
+}
